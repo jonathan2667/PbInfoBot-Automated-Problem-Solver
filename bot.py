@@ -11,7 +11,7 @@ def LogIn(driver, username, pasword) :
 
 driverFirefox = webdriver.Firefox(executable_path=r"C:\Users\jmogo\AppData\Local\Temp\Temp1_geckodriver-v0.29.0-win64.zip\geckodriver.exe")
 driverFirefox.get("https://www.pbinfo.ro/")
-LogIn(driverFirefox, "500_IQ", "exemplu1")
+LogIn(driverFirefox, "500_IQ", "500_IQ")
 
 pyautogui.moveTo(70, 700);
 pyautogui.doubleClick()
